@@ -17,9 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".KeineAhnung.SecondActivity" />
-        <activity android:name=".NeuerOrdner.FarbenActivity"></activity>
-        <activity android:name=".KeineAhnung.SecondActivity"></activity>
-        <activity android:name=".KeineAhnung.Settings"></activity>
+        <activity android:name=".NeuerOrdner.FarbenActivity" />
+        <activity android:name=".KeineAhnung.SecondActivity" />
+        <activity android:name=".KeineAhnung.Settings" />
+        <activity android:name=".NeuerOrdner.Baum"></activity>
     </application>
 
 </manifest>
