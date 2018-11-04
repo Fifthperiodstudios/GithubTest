@@ -6,4 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".KeineAhnung.Settings">
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="73dp" />
 </android.support.constraint.ConstraintLayout>
