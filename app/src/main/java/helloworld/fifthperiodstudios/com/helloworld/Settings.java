@@ -3,12 +3,11 @@ package helloworld.fifthperiodstudios.com.helloworld;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class Settings extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        // Dieser Kommentar ist von Nils
+        setContentView(R.layout.activity_settings);
     }
 }
