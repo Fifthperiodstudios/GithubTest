@@ -20,7 +20,7 @@
         <activity android:name=".NeuerOrdner.FarbenActivity" />
         <activity android:name=".KeineAhnung.SecondActivity" />
         <activity android:name=".KeineAhnung.Settings" />
-        <activity android:name=".NeuerOrdner.Baum"></activity>
+        <activity android:name=".KeineAhnung.Baum"></activity>
     </application>
 
 </manifest>

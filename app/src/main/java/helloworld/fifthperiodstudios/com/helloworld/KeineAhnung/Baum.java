@@ -1,4 +1,4 @@
-package helloworld.fifthperiodstudios.com.helloworld.NeuerOrdner;
+package helloworld.fifthperiodstudios.com.helloworld.KeineAhnung;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,5 +11,7 @@ public class Baum extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_baum);
+        int k = 2+2*2+2;
+        k = (int) Math.random()*k;
     }
 }
