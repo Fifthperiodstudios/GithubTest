@@ -27,13 +27,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
         Button n = (Button) findViewById(R.id.button);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "HELLO", Toast.LENGTH_SHORT);
+                Toast.makeText(getApplicationContext(), "HELLO2", Toast.LENGTH_SHORT);
                 Intent intent = new Intent(MainActivity.this, Settings.class);
                 startActivity(intent);
             }
