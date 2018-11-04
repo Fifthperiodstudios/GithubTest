@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".KeineAhnung.SecondActivity" />
         <activity android:name=".NeuerOrdner.FarbenActivity"></activity>
+        <activity android:name=".KeineAhnung.SecondActivity"></activity>
+        <activity android:name=".Settings"></activity>
     </application>
 
 </manifest>
