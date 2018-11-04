@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import helloworld.fifthperiodstudios.com.helloworld.KeineAhnung.SecondActivity;
+import helloworld.fifthperiodstudios.com.helloworld.KeineAhnung.Settings;
 
 public class MainActivity extends AppCompatActivity {
 
