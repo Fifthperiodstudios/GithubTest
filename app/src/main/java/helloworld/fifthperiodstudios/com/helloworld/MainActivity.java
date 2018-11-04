@@ -3,6 +3,7 @@ package helloworld.fifthperiodstudios.com.helloworld;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -24,5 +25,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        doSomething ();
+    }
+
+    public void doSomething () {
+        Log.d("TAG", "MESSAGE");
     }
 }

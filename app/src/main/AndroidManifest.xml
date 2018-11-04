@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".KeineAhnung.SecondActivity"></activity>
+        <activity android:name=".KeineAhnung.SecondActivity" />
+        <activity android:name=".NeuerOrdner.FarbenActivity"></activity>
     </application>
 
 </manifest>
